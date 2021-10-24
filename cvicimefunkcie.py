@@ -46,3 +46,10 @@ while True:
         again = str(input("Spustit znovu? (y/n): "))
         if again in ("y", "n"):
             break
+
+    if again == "y":
+        continue
+
+    if again == "n":
+        print("Dovi.")
+        break
