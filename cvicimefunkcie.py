@@ -12,9 +12,9 @@ def vstup(hlaska):
 def Vitajte():
     print("Vitajte v programe kalkulacka")  
     print("Pre sucet zvolte +") 
-    print("Pre rozdiel zvolte -")  
-    print("Pre sucet sucin *")
-    print("Pre sucet podiel /")
+    print("Pre rozdiel zvolte "-")  
+    print("Pre sucin zvolte "*")
+    print("Pre podiel zvolte "/")
 
 def plus(x,y):
     z = x + y
