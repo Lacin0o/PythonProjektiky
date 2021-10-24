@@ -1,4 +1,5 @@
 from typing import Text
+from time import sleep
 
 def vstup(hlaska):
     vstup1 =input(hlaska)
@@ -10,11 +11,16 @@ def vstup(hlaska):
 
 
 def Vitajte():
-    print("Vitajte v programe kalkulacka")  
-    print("Pre sucet zvolte +") 
-    print("Pre rozdiel zvolte "-")  
-    print("Pre sucin zvolte "*")
-    print("Pre podiel zvolte "/")
+    print("Vitajte v programe kalkulacka")
+    sleep(1)  
+    print("Pre sucet zvolte +")
+    sleep(0.5)
+    print("Pre rozdiel zvolte -")
+    sleep(0.5)  
+    print("Pre sucin zvolte *")
+    sleep(0.5)
+    print("Pre podiel zvolte /")
+    sleep(0.5)
 
 def plus(x,y):
     z = x + y
